@@ -52,9 +52,10 @@ function incrementWrongAnswer() {
 }
 
 function displayAdditionQuestion(operand1, operand2) {
-    document.getElementsById("operand1").textContent = operand1
-    document.getElementsById("operand2").textContent = operand2
-    document.getElementsById("operator").textContent = operator
+
+    document.getElementById("operand1").textContent = operand1;
+    document.getElementById("operand2").textContent = operand2;
+    document.getElementById("operator").textContent = "+";
 
 }
 
